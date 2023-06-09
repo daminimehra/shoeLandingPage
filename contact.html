@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous">
+</script>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Registation Form</title>
+</head>
+<body>
+  <header>
+
+    <nav class="nav">
+      <div class="logo">
+          <h2>XTreme.</h2>
+      </div>
+      <ul class="nav-links">
+        <a href="index.html"><li>Home</li></a>
+        <a href="shop.html"><li>Shop</li></a>
+        <a href="about.html"><li>About Us</li></a>
+        <a href="contact.html"><li>Contact Us</li></a>
+        <a href="sale.html"><li>SALE</li></a>
+        <a href="login.html"><li>Sign In/Join to XTreme</li></a>
+    </ul> 
+  </nav>
+</header>
+<main class="main">
+  <section>
+    <h1>WE'D LOVE TO HEAR FROM YOU
+    </h1>
+    <p>  Have you read Frequently Asked Questions and didn't find your question<br> there? You
+       can call us, send us an email, or fill out this contact form.<br> Please note that our customer service teams are very busy just now and <br> we are doing everything we can to get back to you as soon as possible. <br>Thank you for your patience!</p>
+  
+  </section>
+ <div class="container">
+    <h1>contact us
+      </h1>
+        <form name="myForm" onsubmit="return form()" method="post" class="form">
+            <div class="input-box">
+              <label>Full Name</label>
+              <input placeholder="Enter your full name" type="text" id="name" name="name" />
+              <p id="userError" style="color: red;"></p>
+            </div>
+            <div class="input-box">
+              <label>Email Address</label>
+              <input placeholder="Enter your email address" type="text" id="email" name="email"/>
+              <p id="emailError" style="color: red"></p>
+            </div>
+       
+              <div class="input-box">
+                <label>Phone Number</label>
+                <input type="text" id="mobile" name="mobile" placeholder="Enter your phone number"  />
+                <p id="mobileError" style="color:red;"></p>
+              </div>
+              <div class="input-box">
+                <label>Message:</label>
+              <textarea type="text" rows="4" cols="30"  class="textarea form-control"  placeholder="Enter Your Message"></textarea>     
+           
+              </div>
+          
+            <input class="btn" type="submit" value="Submit">
+          </form>
+        </div>
+</main>
+   
+    <footer>
+      <div class="footer">
+        <div class="footer-item">
+          <div class="logo">
+              <h3>THE XTreme.</h3>
+          </div>
+          <br>
+          <ul>
+              <li>FAQ</li>
+              <li>Contact Us</li>
+              <li>customerservice@XTreme.com</li>
+              <li>+9137874298</li>
+              </ul>
+      </div>
+          <div class="footer-item">
+              <div class="logo">
+                  <h3>Useful Links</h3>
+              </div>
+              <br>
+              <ul>
+                  <li>Home</li>
+                  <li>About Us</li>
+                  <li>Shop</li>
+                  <li>Wishlist</li>
+              </ul>
+          </div>
+          <div class="footer-item">
+              <div class="logo">
+                  <h3>Privacy Links</h3>
+              </div>
+              <br>
+              <ul>
+                  <li>Privacy Policy</li>
+                  <li>Terms & Conditions</li>
+                  <li>Return Policy</li>
+                  <li>Exchange Policy</li>
+              </ul>
+          </div>
+          <div class="footer-item">
+              <div class="logo">
+                  <h3>Contact Links</h3>
+              </div>
+              <br>
+              <ul>
+                  <li>Write to us</li>
+                  <li>Follow on Instagram</li>
+                  <li>Follow on Twitter</li>
+                  <li>Follow on LinkedIn</li>
+              </ul>
+          </div>
+      </div>
+      <br>
+      <div class="copy">All Rights Reserved &copy;SHOE. 2023</div>
+  </footer>
+</body>
+</html>
